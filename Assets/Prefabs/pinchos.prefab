@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4664222493336808222}
   - component: {fileID: 4754674112763686176}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: pinchos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,6 +116,18 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e06bdac7481ffe540b6db3aa7d92d58f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e06bdac7481ffe540b6db3aa7d92d58f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e06bdac7481ffe540b6db3aa7d92d58f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e06bdac7481ffe540b6db3aa7d92d58f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e06bdac7481ffe540b6db3aa7d92d58f, type: 3}
