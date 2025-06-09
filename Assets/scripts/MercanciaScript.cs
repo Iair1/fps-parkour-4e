@@ -12,7 +12,6 @@ public class MercanciaScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "player")
         {
             if(moneyManager.UpdateMoney(-precio) == true) { 
