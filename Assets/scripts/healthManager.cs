@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class healthManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class healthManager : MonoBehaviour
         if (vida + cosososa <= 0)
         {
             Debug.Log("game ovr");
+            SceneManager.LoadScene("parkour");
             return false;
         }
         else
